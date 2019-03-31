@@ -71,7 +71,7 @@ export default class HelloWorld {
                }
          }
      }).value;
-     model.attach(this.user="James",this.attach="head");
+     model.attach(user, "spine");
             }
         } 
 
