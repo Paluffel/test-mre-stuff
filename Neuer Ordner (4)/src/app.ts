@@ -33,7 +33,7 @@ export default class HelloWorld {
      * sets user id .
      * @param user The id of the user we will attach the hat to.
      */
-    user="plauffel"
+    user="James"
     attach: "head"
     /**
      * Once the context is "started", initialize the app.
@@ -71,7 +71,7 @@ export default class HelloWorld {
                }
          }
      }).value;
-     model.attach(this.user="Paluffel",this.attach="head");
+     model.attach(this.user="James",this.attach="head");
             }
         } 
 
