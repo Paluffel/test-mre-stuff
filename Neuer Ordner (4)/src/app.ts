@@ -61,13 +61,13 @@ export default class HelloWorld {
      * @param user The id of the user we will attach the hat to.
      */
         const model = Actor.CreateFromLibrary(this.context, {
-            resourceId: "artifact: 1171063328210944377",
+            resourceId: "artifact: 1170413026155692187",
             actor: {
-                name: 'Faescoolpinkwings',
+                name: 'Yunjiscrownpinkandblue',
                 transform: {
                     position: { x: 0, y: 0.0, z: 0 },
                     rotation: MRE.Quaternion.RotationAxis(MRE.Vector3.Up(), -180.0 * MRE.DegreesToRadians),
-                    scale: { x: 1, y: 1, z: 1 }
+                    scale: { x: 0.01, y: 0.01, z: 0.01 }
                }
          }
      }).value;
